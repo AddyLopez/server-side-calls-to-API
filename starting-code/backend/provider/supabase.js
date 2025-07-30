@@ -1,14 +1,12 @@
+// Import `dotenv` package and call the `config()` function to access the environment variables set within the `.env` file.
+require("dotenv").config();
 
-// Import `dotenv` package and call the `config()` function to access the environment variables set within the `.env` file. 
+console.log(process.env); // Confirm functionality
 
-
-// Abstract the `createClient` functionality from the `supabase` package. 
-
+// Abstract the `createClient` functionality from the `supabase` package.
 
 // Create two const variables `supabaseURL` and `supabaseSecret` with the value of the environment variables you created.
 
+// Create a variable `supabase` and set the value to the execution of the `createClient` function passing in `supabaseUrl` and `supabaseSecret` variables as arguments.
 
-// Create a variable `supabase` and set the value to the execution of the `createClient` function passing in `supabaseUrl` and `supabaseSecret` variables as arguments. 
-
-
-// Export the `supabase` variable. 
+// Export the `supabase` variable.
