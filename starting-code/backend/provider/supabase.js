@@ -12,3 +12,4 @@ const supabaseSecret = process.env.supabaseSecret;
 const supabase = createClient(supabaseURL, supabaseSecret);
 
 // Export the `supabase` variable.
+module.exports = supabase;
